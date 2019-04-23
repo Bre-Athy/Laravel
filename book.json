@@ -1,0 +1,55 @@
+{
+    "title": " 呼吸君のGitBook ",
+    "description": "Web应用开发",
+    "author": "Bre Athy",
+    "language": "zh-hans",
+    "root": ".",
+
+    "plugins": [
+        "donate",
+		"chapter-fold",
+		"back-to-top-button",
+		"code",
+		"-lunr", 
+        "-search", 
+        "search-pro",
+		"splitter",
+		"-sharing", 
+		"sharing-plus",
+		"popup",
+		"lightbox"
+    ],
+	"links" : {
+    "sidebar" : {
+        "Home" : "https://www.zhihu.com/people/you-yi-shi-de-hu-xi/activities"
+    }
+},
+
+    "pluginsConfig": {
+        "donate": {
+            "wechat": "https://ws3.sinaimg.cn/large/005BYqpgly1g2chnfd4c2g309i09ikcz.jpg",
+            "alipay": "https://ws3.sinaimg.cn/large/005BYqpgly1g2chablu88g30c90c9e81.jpg",
+            "title": "",
+            "button": "提问",
+            "alipayText": "更多精彩",
+            "wechatText": "QQ 提问"
+        },
+		"pluginsConfig": {
+			"chapter-fold":{}
+		},
+		"sharing": {
+             "douban": false,
+             "facebook": false,
+             "google": true,
+             "pocket": false,
+             "qq": true,
+             "qzone": false,
+             "twitter": false,
+             "weibo": true,
+			"all": [
+               "douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo", 
+               "messenger","qq", "qzone","viber","whatsapp"
+			]
+       }
+    }
+}
